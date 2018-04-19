@@ -1,2 +1,2 @@
 # AnonyMsg
-A Python Tool For Sent Anonymously Email :)
+A Python Tool For Send Anonymous Email :)
