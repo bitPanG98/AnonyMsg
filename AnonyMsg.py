@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 # I LOVE PYTHON(^-^)
-# Sent Anonymously Email :)
+# A Python Tool For Send Anonymously Email :)
 # Coded By : OseidAldary
 #=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
@@ -58,7 +58,7 @@ def check():
 
 ## Done !
 
-## Script Banner
+## Tool Banner
 banner = gr+'''
   ___                         ___  ___          
  / _ \       @Anonymousl      |  \/  |          
@@ -67,7 +67,7 @@ banner = gr+'''
 | | | | | | | (_) | | | | |_| | |  | \__ \ (_| |
 \_| |_/_| |_|\___/|_| |_|\__, \_|  |_/___/\__, |
                           __/ |            __/ |
-Sent anonymously Email:) |___/            |___/ 
+Send Anonymously Email:) |___/            |___/ 
 ================================================
 '''
 ###
