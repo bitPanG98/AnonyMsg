@@ -14,13 +14,21 @@ except:
 import optparse,socket
 from time import sleep
 from random import randint
+from sys import platform as useros
 ## Done!
 
-## Colors..:)
-rd = '\033[31m'
-gr = '\033[32m'
-yl = '\033[33m'
-wi = '\033[0m'
+
+if useros =="linux" or useros =="linux2":
+#LINUX COLORS
+	rd = '\033[31m'
+	gr = '\033[32m'
+	yl = '\033[33m'
+	wi = '\033[0m'
+else:
+	rd = ''
+	gr = ''
+	yl = ''
+	wi = ''
 
 ## Done!
 
