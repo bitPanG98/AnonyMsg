@@ -118,6 +118,8 @@ def Main():
 	         url = "http://anonymouse.org/anonemail.html"
                  useuser = "Mozilla/4.0 (compatible; MSIE 5.0; AOL 4.0; Windows 95; c_athome)"
                  br.addheaders = [('User-agent', useuser)]
+		 if useproxy == True:
+			br.set_proxies({"https":randproxy})
                  br.open(url)
                  br.set_handle_equiv(True)
                  br.set_handle_gzip(True)
@@ -126,8 +128,6 @@ def Main():
                  br.set_handle_robots(False)
                  br.set_debug_http(False)
                  br.set_debug_redirects(False)
-		 if useproxy == True:
-			br.set_proxies({"https":randproxy})
 		 br.select_form(nr=0)
 		 br.form['to'] = to
 		 br.form['subject'] = sub
