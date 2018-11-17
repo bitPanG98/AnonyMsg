@@ -84,7 +84,7 @@ OPTIONS:
 	-m --message   ::> set your message
 
 	-p --use-porxy ::> If You Want Use Proxy With Sent The Email
-EXAPLES:
+EXAMPLES:
 
 ./AnonyMsg.py -r oseid@gmail.com -s Hacking -m 'Your Have Been Hacked!'
 ./AnonyMsg.py -r oseid@gmail.com -s Hacking -m 'Your Have Been Hacked!' -p
