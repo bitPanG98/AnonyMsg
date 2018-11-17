@@ -8,7 +8,7 @@
 ## IMPORT LIBRARIES..:)
 try:
    import mechanize
-except:
+except ImportError:
 	print('\n[!] Error: The [ Mechanize ] Library Is Not Installed !\n[*] Please Install It Use This Command: pip install mechanize')
 	exit(1)
 import optparse,socket
