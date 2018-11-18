@@ -11,19 +11,19 @@
 
    * Send Anonymous Email without any proxy: 
              
-             **Command** : ```python AnonyMsg.py -r target@gmail.com -s Hack -m 'Your Has Been Hacked'```
+             python AnonyMsg.py -r target@gmail.com -s Hack -m 'Your Has Been Hacked'
    
       ![send1](https://user-images.githubusercontent.com/29546157/48670937-a63cf780-eb29-11e8-90ae-bbea8b2ea066.PNG)
       
    * Send Anonymus Email Using random Proxy From Script Default Proxy List:
              
-             **Command** : ```python AnonyMsg.py -r target@hotmail.com -s Hack -m 'Your Has Been Hacked' --def-proxy```
+             python AnonyMsg.py -r target@hotmail.com -s Hack -m 'Your Has Been Hacked' --def-proxy
    
       ![def-proxy](https://user-images.githubusercontent.com/29546157/48670981-25323000-eb2a-11e8-8188-9399588fcab7.PNG)
       
    * Send Anonymous Email Using Selected Proxy By User:
              
-             **Command** : ```python AnonyMsg.py -r tr@hotmail.com -s Hack -m 'Your Has Been Hacked' --use-proxy 31.155.3.222:80```
+             python AnonyMsg.py -r target@gmail.com.com -s Hack -m 'Your Has Been Hacked' --use-proxy 31.155.3.222:80
       ![sproxy](https://user-images.githubusercontent.com/29546157/48671042-e650aa00-eb2a-11e8-9199-c6fd4b49a7b9.PNG)
 
 # Supported platforms:
