@@ -87,7 +87,7 @@ OPTIONS:
     |--------
     | -d --def-porxy ::> Use Random Proxy From Default Script Proxy list
     |--------
-    | -u --use-proxy ::> Use Select Porixy From User
+    | -u --use-proxy ::> Use Select Porxy From User
 -------------	
 EXAMPLES:
         |
