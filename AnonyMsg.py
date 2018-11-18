@@ -131,8 +131,8 @@ def Main():
 			br.set_proxies({"https":randproxy})
 	         elif options.proxyis !=None:
                     proxyis = options.proxyis
-                    print(wi+"\n["+yl+"~"+wi+"]"+gr+" Connecting To Proxy["+wi+proxyis+gr+"]...")
                     if ":" in proxyis:
+		       print(wi+"\n["+yl+"~"+wi+"]"+gr+" Connecting To Proxy["+wi+proxyis+gr+"]...")
                        proxy = proxyis.split(":")
                        proxy,port = proxy[0],int(proxy[1])
                        try:
