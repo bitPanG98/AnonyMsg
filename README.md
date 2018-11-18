@@ -17,7 +17,7 @@
       
    * Send Anonymus Email Using random Proxy From Script Default Proxy List:
              
-             python AnonyMsg.py -r target@hotmail.com -s Hack -m 'Your Has Been Hacked' --def-proxy
+             python AnonyMsg.py -r target@gmail.com -s Hack -m 'Your Has Been Hacked' --def-proxy
    
       ![def-proxy](https://user-images.githubusercontent.com/29546157/48670981-25323000-eb2a-11e8-8188-9399588fcab7.PNG)
       
