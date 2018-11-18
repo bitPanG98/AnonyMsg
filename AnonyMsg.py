@@ -148,7 +148,7 @@ def Main():
                     else:
                         print(wi+"\n["+yl+"!"+wi+"]"+yl+" Please Set A Proxy With Port Like This"+wi+"[ "+yl+"31.155.3.222:80"+wi+" ]")
                         exit(1)
-                 print(wi+"["+gr+"+"+wi+"]"+gr+"Connected :)")
+                 print(wi+"["+gr+"+"+wi+"]"+gr+" Connected :)")
                  br.set_handle_equiv(True)
                  br.set_handle_gzip(True)
                  br.set_handle_redirect(True)
