@@ -24,7 +24,7 @@ wi = '\033[1;37m'
 
 ## Done!
 
-## Random Proxy For Use..:) 
+## Random Proxy For Use..:)
 
 def proxy(): # Default Proxy List
 
@@ -88,7 +88,7 @@ OPTIONS:
     | -d --def-porxy ::> Use Random Proxy From Default Script Proxy list
     |--------
     | -u --use-proxy ::> Use Select Porxy From User
--------------	
+-------------
 EXAMPLES:
         |
      |----------
@@ -141,6 +141,7 @@ def Main():
                           s.connect((proxy, port))
                           s.close()
                           br.set_proxies({"https":proxyis})
+			  print(wi+"["+gr+"+"+wi+"]"+gr+" Connected :)")
                        except socket.error:
                            print(rd+"\n["+yl+"!"+rd+"]"+yl+" Connection Failed TO Proxy[ "+rd+proxy+":"+str(port)+yl+" ]"+rd+" !!!")
                            print(wi+"["+yl+"!"+wi+"]"+yl+" Please Try Other Proxy\n"+wi+"["+yl+"!"+wi+"]"+yl+" Select The Proxy Use Port"+wi+"["+yl+"80"+wi+"]"+yl+" And "+wi+"["+yl+"HTTPS"+wi+"]"+yl+" Is "+gr+"Active")
@@ -148,9 +149,8 @@ def Main():
                     else:
                         print(wi+"\n["+yl+"!"+wi+"]"+yl+" Please Set A Proxy With Port Like This"+wi+"[ "+yl+"31.155.3.222:80"+wi+" ]")
                         exit(1)
-                 print(wi+"["+gr+"+"+wi+"]"+gr+" Connected :)")
                  br.set_handle_equiv(True)
-                 br.set_handle_gzip(True)
+                 #br.set_handle_gzip(True)
                  br.set_handle_redirect(True)
                  br.set_handle_referer(True)
                  br.set_handle_robots(False)
